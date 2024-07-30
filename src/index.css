@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active{
+    background-color: rgb(26, 188, 156);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+@media (min-width:1020px) {
+    .navbutton11{
+        display: block;
+    }
+}
